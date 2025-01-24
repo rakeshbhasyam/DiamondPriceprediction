@@ -41,6 +41,11 @@ The dataset used in this project is publicly available on [Kaggle](https://www.k
   - Matplotlib
   - Seaborn
   - Scikit-learn
+- **Frontend**:
+  - HTML
+  - CSS
+- **Backend**:
+  - Flask
 - **Modeling Techniques**:
   - Linear Regression
   - Random Forest Regression
@@ -58,19 +63,31 @@ The dataset used in this project is publicly available on [Kaggle](https://www.k
 5. **Model Evaluation**:
    - Compare models using metrics like RMSE, R2 Score, and MAE.
 6. **Deployment**:
-   - Deploy the best-performing model as a web application using Flask or Streamlit.
+   - Deploy the best-performing model as a web application using Flask.
 
 
-   ```
 ## Usage
 1. Run the Jupyter Notebook to explore the data and train models:
    ```bash
    jupyter notebook
    ```
+2. To run the web app:
+   ```bash
+   python app.py
+   ```
+3. Use the app to input diamond features and get a price prediction.
+
+### Web Application
+- The web app is built using Flask for the backend.
+- HTML and CSS are used for the frontend to create a user-friendly interface.
+- Users can input diamond attributes via the web interface and receive predicted prices instantly.
+
+
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Author**: [Rakesh bhasyam](https://github.com/rakeshbhasyam)
+**Author**: [Rakesh Bhasyam](https://github.com/rakeshbhasyam)
 
